@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    background-color: black;
+}
+
+.dp img{
+    /* vertical-align: middle; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    border-color:red;
+    
+}
+.logo img{
+    position: relative;
+    left: 35%;
+    margin-top: 24%;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .dp img{
+        left: 30%;
+    }
+    .logo img{
+        /* display: flex; */
+        /* flex-direction: column; */ 
+        padding: 0;
+        margin-top: 0;
+        left: 10%;        
+        margin-top: 70%;
+    }
+    .logo{
+        margin-top: 50%;
+    }
+
+}
