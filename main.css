@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 html,
 body {
@@ -89,13 +90,14 @@ body {
     .nav{
     display: flex;
     flex-direction: row;
-    width: 319px;
+    /* width: 319px; */
     height: 40%;
     position: absolute;
     top: -1%;
     left: 0;
     width: 100%;
     /* top: 10%; */
+    justify-content: space-evenly;
 }
     
     .nav a{
@@ -103,8 +105,9 @@ body {
        line-height: 30px;
        height: 30px;
        padding: 0 10px;
-       margin: 0 2px;
+       /* margin: 0 2px; */
        width: 100%;
+     
 
     }
     .background{

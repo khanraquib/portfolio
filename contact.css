@@ -19,9 +19,15 @@
 }
 .logo img{
     position: relative;
-    left: 35%;
+    left: 40%;
     margin-top: 24%;
     padding: 10px;
+    /* display: inline-block; */
+}
+.logo a{
+    left: 20%;
+    color: white;
+    text-align: justify;
 }
 @media screen and (max-width: 768px) {
     .dp img{
@@ -30,13 +36,27 @@
     .logo img{
         /* display: flex; */
         /* flex-direction: column; */ 
-        padding: 0;
+        /* padding: 20px; */
         margin-top: 0;
-        left: 10%;        
-        margin-top: 70%;
+        left: 0%;        
+        margin-top: 60%;
     }
     .logo{
         margin-top: 50%;
+        text-align: center;
     }
+    .logo a{
+        color: white;
+        width: 30%;
+        
+
+    }
+    /* .linked-in {
+        position: absolute;
+        /* bottom: 20%; */
+        margin-left: 22%;
+        text-align: center;
+        margin-top: 192px;
+    } */
 
 }
