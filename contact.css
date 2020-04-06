@@ -37,13 +37,13 @@ body {
   top: 30%;
   border-color: red;
   object-fit: cover;
-  margin-top: 5%;
+  margin-top: 8%;
   border: 5px solid rgb(55, 126, 224, 0.5);
 }
 .logo img {
   position: relative;
   left: 40%;
-  margin-top: 8%;
+  margin-top: 12%;
   padding: 10px;
   /* display: inline-block; */
 }
