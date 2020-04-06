@@ -52,7 +52,77 @@ body {
   color: white;
   text-align: justify;
 }
+.dropdown-menu{
+  display: none;
+}
 @media screen and (max-width: 768px) {
+  .static{
+    display: none;
+  }
+  .dropdown-menu{
+    background-color:black;
+    color: white;
+    /* padding-left: 20px; */
+    border-bottom: 5px solid rgb(55, 126, 224, 0.5);
+    /* box-shadow: 1px 2px 3px rgba(0,0,0,0.2); */
+  display: block;
+  /* position: sticky; */
+  /* top: 0px; */
+}
+
+.menu ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    /* float: right; */
+    text-transform: uppercase;
+  width: 20%;
+  line-height: 5px;
+   
+
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+  
+   
+   
+}
+.dropdown-menu label{
+    display: block;
+    cursor: pointer;
+    background: url(/images/icons8-pastel-64.png)  left center ;
+    background-repeat: no-repeat;
+    padding: 50px 100px 40px 40px;
+   
+    
+}
+input#menu-bar{
+    display: none;
+}
+input:checked ~ label{
+    background: url(/images/multiply.png) no-repeat left center;
+}
+.menu{
+    height: 0;
+    overflow: hidden;
+   /* max-width: 300px;
+   float: left 20%; */
+}
+input:checked ~ .menu{
+    height: 100%;
+}
+.menu li:hover{
+    color:black;
+    /* display: block; */
+    background:white;
+    /* text-align: center; */
+   
+}
   .dp img {
     left: 40%;
     margin-top: 70px;
