@@ -49,7 +49,7 @@ body {
   line-height: 90px;
   background-color: black;
   text-align: center;
-  transition: 250ms;
+  transition: .3s ease-in-out;
 }
 /* a.active{
     background-color: white;
@@ -61,6 +61,8 @@ body {
   background-color: white;
   color: black;
   width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .me {
@@ -91,9 +93,9 @@ body {
     display: none;
   }
   .dropdown-menu{
-    background-color:black;
+    background-color:transparent;
     color: white;
-    border-bottom: 5px solid rgb(55, 126, 224, 0.5);
+    /* border-bottom: 5px solid rgb(55, 126, 224, 0.5); */
   display: block;
   /* position: sticky; */
   /* top: 0px; */
@@ -108,6 +110,7 @@ body {
     text-transform: uppercase;
   width: 20%;
   line-height: 5px;
+  transition: .3s linear;
    
 
 }
@@ -115,8 +118,14 @@ body {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color:grey;
     font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+  transition: .1s linear;
+  letter-spacing: 2px;
+
   
    
    
@@ -145,12 +154,9 @@ input:checked ~ label{
 input:checked ~ .menu{
     height: 100%;
 }
-.menu li:hover{
-    color:black;
-    /* display: block; */
-    background:white;
-    /* text-align: center; */
-   
+.menu li a:hover{
+       color: palegreen;
+       font-size: 16px;
 }
 .background{
   background-position: center;
